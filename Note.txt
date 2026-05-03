@@ -1,0 +1,16 @@
+- You can use the link data but needs working with data. So working with provided data in Canvas is better
+- Use Directly with pre/processed dataset. 
+- You can use python
+
+* Main thing the teacher will look is task 3. so it needs more focus.
+
+Task 1> Which feature is important in your algorithm and Generate Feature importance plot 
+Task 2> Three for VG, and 80% accuracy. Use any algorithm you like based on the instruction. Random forest model or LLMS. We have labels so 
+we can use supervised data divide the data into two parts training and testing and then implementation. We can do the same. 
+
+Both have the same information. 
+CSV file can be used for LSTM or other algorithms
+.npz use random forest
+
+* use mode like bike, bus, car, walk as 80 training and 20% testing then you will get 80% acoracy but if you chose randomly then it will not 80%
+the better way is to splite data by car, bus, bike 15|28 se vedio.
