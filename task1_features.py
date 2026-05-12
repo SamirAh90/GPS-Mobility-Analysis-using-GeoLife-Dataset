@@ -8,7 +8,7 @@ Target  : mode  (walk | bike | bus | car)
 7 features analysed (as provided in dataset – no modification):
   avg_speed_mps  – Average speed
   std_speed_mps  – Speed variation
-  p90_speed_mps  – High-speed behaviour  (90th-percentile speed)
+  max_speed_mps  – High-speed behaviour  (maximum speed)
   std_acc_mps2   – Acceleration variation
   avg_turn_deg   – Turning behaviour
   stop_ratio     – Stop frequency

@@ -52,7 +52,7 @@ The use of stratification is critical; it guarantees that the original class dis
 Raw GPS points cannot be fed directly into standard tabular classifiers. Therefore, each trajectory segment was characterised by **7 engineered spatio-temporal features**, selected based on established literature (Li et al., 2021) and the physical characteristics of movement:
 
 1. **`avg_speed_mps`**: The mean speed across the segment (meters/second).
-2. **`max_speed_mps`**: The maximum instantaneous speed recorded in the segment.
+2. **`max_speed_mps`**: The maximum instantaneous speed recorded in the segment (high-speed behaviour).
 3. **`distance_m`**: The total distance travelled during the segment (meters).
 4. **`std_acc_mps2`**: The standard deviation of acceleration, representing variance in kinetic energy.
 5. **`avg_turn_deg`**: The mean turning angle (degrees) between consecutive GPS points.
